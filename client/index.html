@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba de chat</title>
+    <link rel="stylesheet"  href="/css/estilochat.css">
+    
+    <script type="module" src="/src-client/client-socket.js"></script>
+    <!-- <script type="module" src="">
+        import {io} from 'https://cdn.socket.io/4.3.2/socket.io.esm.min.js'
+        const socket = io()
+    </script> -->
+
+</head>
+<body>
+    <h1 class="prueba">Hola</h1>
+    <section id="chat" >
+        <ul id="Listamensajes"></ul>
+    
+        <form id="formularioChat">
+            <input type="text" id="mensaje" autocomplete="off" placeholder="Escribe tu mensaje">
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
